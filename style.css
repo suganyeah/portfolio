@@ -22,7 +22,7 @@ header {
     width: 110px;
     height: 110px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: top; /* Moves focus to the face */
     float: right;
 }
