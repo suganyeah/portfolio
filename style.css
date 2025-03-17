@@ -19,23 +19,23 @@ header {
 .profile-container {
     text-align: center; /* Centers text */
 }
-
-Profile image-a left side corner-la move panna left property-a 0 set pannunga. Also, top property-a adjust panna mudiyum.
-
-Updated CSS:
-
 .profile-container img {
     width: 100px; /* Adjust the size as needed */
     height: 100px;
     border-radius: 50%; /* Perfect circle */
     object-fit: cover; /* Ensure the image fills the circular area */
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    left: 10px; /* Move to the left corner */
+    top: 0;
+    left: 0;
 }
-
-top: 10px; left: 10px; nu vachirukken. If exact corner la venum-na, top: 0; left: 0; nu vachidunga.
-
+@media (max-width: 600px) {
+    .profile-container img {
+        width: 80px; /* Reduce size on smaller screens */
+        height: 80px;
+        top: 5px;
+        left: 5px;
+    }
+}
 
 
 .profile-container h1 {
