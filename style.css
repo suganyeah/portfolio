@@ -19,8 +19,8 @@ header {
 
 
 .profile-picture {
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 110px;
     border-radius: 50%;
     object-fit: cover;
     float: right; /* Moves the image to the right */
